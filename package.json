@@ -1,0 +1,18 @@
+{
+  "name": "cli-task",
+  "version": "1.0.0",
+  "description": "CLI tool for solving tasks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "cli-task": "index.js"
+  },
+  "dependencies": {
+    "cli-task": "file:",
+    "commander": "^10.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
